@@ -1,5 +1,5 @@
 /*
- * Imprime un saludo por la salida estándar.
+ * Print the classic hello world greeting.
  */
 
 #include <stdio.h>      // printf()
@@ -7,9 +7,9 @@
 
 int main(int argc, char *argv[])
 {
-    // Imprime el saludo en la salida estándar.
+    // Prints the greeting.
     printf("¡Hola Mundo!\n");
 
-    // Termina la ejecución del proceso.
+    // Finish the process and exit.
     exit(EXIT_SUCCESS);
 }
