@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[])
 {
-    // Print the greeting.
+    // Print a greeting.
     printf("¡Hello world!!!\n");
 
     // Finish the process and exit.
