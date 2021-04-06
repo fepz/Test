@@ -15,6 +15,9 @@ $(BIN)/%: %.c
 %: %.c
 	$(CC) -o $(BIN)/$@ $< $(CFLAGS)
 
+check:
+	./test.sh
+
 .PHONY: clean
 clean:
 	rm -f $(LIST)
